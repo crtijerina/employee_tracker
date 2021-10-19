@@ -28,7 +28,7 @@ CREATE TABLE department (
 );
 
 INSERT INTO employees (first_name, last_name, role_id, manager_id)
-VALUES ("Daniel", "Reza", 1, 00000), ("Kaylee", "Reza", 1, 00000);
+VALUES ("Chris", "Tijerina", 1, 00000), ("Laura", "Tijerina", 1, 00000);
 
 INSERT INTO department (department_id, department_name)
 VALUES (1, "Admin"), (2, "Engineering"), (3, "Content"), (4, "Sales");

@@ -154,8 +154,8 @@ function addEmployee() {
         type: "list",
         message: "Who is the employee's manager?",
         choices: [
-            "Daniel",
-            "Kaylee"
+            "Chris",
+            "Laura"
         ]}
     ])
         .then(async function (answers) {
@@ -165,7 +165,7 @@ function addEmployee() {
                 {
                     first_name: answers.first_name,
                     last_name: answers.last_name,
-                    role_id: 0, //need to work on setting this up
+                    role_id: 0, //needing to work on setting this up later.
                     manager_id: 0
                 },
                 function (req, res) {
