@@ -12,7 +12,7 @@
     This here is an employee tracker. This application allows you to view, edit, and remove employees within your company - all laid out in organized tables. You can also view departments and roles.
 </p>
 
-<img src="Screen Shot 2021-01-11 at 11.54.01 PM.png">
+<img src="Screen Shot 2021-11-16.png">
 
 <p>
     This is the first application I made that utilizes mySQL combined with the express and inquirer packages. You will notice the main display upon launching the app - this was made using the figlet package.
