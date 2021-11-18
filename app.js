@@ -165,7 +165,7 @@ function addEmployee() {
                 {
                     first_name: answers.first_name,
                     last_name: answers.last_name,
-                    role_id: 0, //needing to work on setting this up later.
+                    role_id: 0, //not working
                     manager_id: 0
                 },
                 function (req, res) {
